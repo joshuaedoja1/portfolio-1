@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#hero h1 {
+    margin: 0;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+section#about, section#skills, section#contact {
+    background: #f4f4f4;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+.project {
+    margin: 1rem 0;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
